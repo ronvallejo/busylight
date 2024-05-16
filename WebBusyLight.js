@@ -11,10 +11,6 @@ const buttonOff = document.getElementById('btnOff');
 const IPaddress = '10.4.3.150:8000';
 
 
-// Define the base URL for requests (replace with your actual server URL)
-//const baseUrl = 'http://-server.com/api/status/';
-
-
 // Define a map of button IDs to preset colors
 const presetColors = {
   btnAvailable: 'chartreuse',
@@ -69,7 +65,7 @@ function handleButtonClick(event) {
 
 function handlePartyMode() {
   // Define the custom URL for this button
-  const customUrl = 'http://10.244.24.219:8000/lights/rainbow?speed=medium&dim=1'; // Replace with your actual URL
+  const customUrl = `http://${IPaddress}/lights/rainbow?speed=medium&dim=1`;
 
   const xhr = new XMLHttpRequest();
 
@@ -90,7 +86,7 @@ function handlePartyMode() {
 
 function handleOff() {
   // Define the custom URL for this button
-  const customUrl = 'http://10.244.24.219:8000/lights/off'; // Replace with your actual URL
+  const customUrl = `http://${IPaddress}/lights/off`; 
 
   const xhr = new XMLHttpRequest();
 
