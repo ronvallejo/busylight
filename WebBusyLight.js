@@ -8,7 +8,7 @@ const partyMode = document.getElementById('btnPartyMode');
 const buttonOff = document.getElementById('btnOff');
 
 
-const IPaddress = '10.244.24.219:8000';
+const IPaddress = '10.4.3.150:8000';
 
 
 // Define the base URL for requests (replace with your actual server URL)
