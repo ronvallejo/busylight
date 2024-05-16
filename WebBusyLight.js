@@ -13,7 +13,7 @@ const IPaddress = '10.4.3.150:8000';
 
 // Define a map of button IDs to preset colors
 const presetColors = {
-  btnAvailable: 'chartreuse',
+  btnAvailable: 'green',
   btnAway: 'yellow',
   btnBusy: 'red',
   btnDoNotDisturb: 'purple',
